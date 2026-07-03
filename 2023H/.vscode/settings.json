@@ -1,0 +1,200 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#202124",
+    "editor.foreground": "#E8EAED",
+    "editorLineNumber.foreground": "#5F6368",
+    "editorLineNumber.activeForeground": "#BDC1C6",
+    "editorCursor.foreground": "#FDD663",
+    "editor.selectionBackground": "#3C4043",
+    "editor.lineHighlightBackground": "#2B2C2F",
+    "editorBracketHighlight.foreground1": "#8AB4F8",
+    "editorBracketHighlight.foreground2": "#81C995",
+    "editorBracketHighlight.foreground3": "#FDD663",
+    "editorBracketHighlight.foreground4": "#F28B82",
+    "sideBar.background": "#202124",
+    "activityBar.background": "#202124",
+    "statusBar.background": "#3C4043",
+    "statusBar.foreground": "#E8EAED",
+    "tab.activeBackground": "#202124",
+    "tab.inactiveBackground": "#1B1C1D"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "namespace": "#80CBC4",
+      "type": "#FDD663",
+      "class": "#FDD663",
+      "enum": "#FDD663",
+      "interface": "#FDD663",
+      "struct": "#FDD663",
+      "typeParameter": "#FDD663",
+      "parameter": "#F6AEA9",
+      "variable": "#E8EAED",
+      "property": "#80CBC4",
+      "enumMember": "#FFB74D",
+      "function": "#8AB4F8",
+      "method": "#8AB4F8",
+      "macro": "#F28B82",
+      "keyword": "#C58AF9",
+      "comment": "#9AA0A6",
+      "string": "#81C995",
+      "number": "#FFB74D"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#9AA0A6",
+    "keywords": "#C58AF9",
+    "strings": "#81C995",
+    "functions": "#8AB4F8",
+    "variables": "#E8EAED",
+    "numbers": "#FFB74D",
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.function",
+          "support.function",
+          "meta.function-call"
+        ],
+        "settings": {
+          "foreground": "#8AB4F8"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "entity.name.class",
+          "entity.name.struct",
+          "entity.name.enum",
+          "support.type",
+          "storage.type"
+        ],
+        "settings": {
+          "foreground": "#FDD663"
+        }
+      },
+      {
+        "scope": [
+          "variable.parameter",
+          "meta.function.parameters"
+        ],
+        "settings": {
+          "foreground": "#F6AEA9"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.property",
+          "support.variable.property",
+          "variable.other.member"
+        ],
+        "settings": {
+          "foreground": "#80CBC4"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric",
+          "constant.language",
+          "constant.character",
+          "constant.other"
+        ],
+        "settings": {
+          "foreground": "#FFB74D"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.directive",
+          "punctuation.definition.directive",
+          "meta.preprocessor",
+          "entity.name.function.preprocessor"
+        ],
+        "settings": {
+          "foreground": "#F28B82"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator",
+          "storage.modifier"
+        ],
+        "settings": {
+          "foreground": "#C58AF9"
+        }
+      }
+    ]
+  },
+  "C_Cpp.default.compilerPath": "D:/MinGW/mingw64/bin/gcc.exe",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/Core/Inc",
+    "${workspaceFolder}/Core/SignalSeparation",
+    "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+    "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+    "${workspaceFolder}/Drivers/CMSIS/Include",
+    "${workspaceFolder}/Middlewares/ST/ARM/DSP/Inc",
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+    "D:/MinGW/mingw64/x86_64-w64-mingw32/include"
+  ],
+  "C_Cpp.default.systemIncludePath": [
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+    "D:/MinGW/mingw64/x86_64-w64-mingw32/include"
+  ],
+  "C_Cpp.default.defines": [
+    "USE_PWR_LDO_SUPPLY",
+    "USE_HAL_DRIVER",
+    "STM32H723xx",
+    "ARM_MATH_CM7"
+  ],
+  "C_Cpp.default.browse.path": [
+    "${workspaceFolder}/Core/Inc",
+    "${workspaceFolder}/Core/SignalSeparation",
+    "${workspaceFolder}/Core/Src",
+    "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+    "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+    "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Src",
+    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+    "${workspaceFolder}/Drivers/CMSIS/Include",
+    "${workspaceFolder}/Middlewares/ST/ARM/DSP/Inc",
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+    "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+    "D:/MinGW/mingw64/x86_64-w64-mingw32/include"
+  ],
+  "C_Cpp.default.cStandard": "gnu11",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/.vscode/.cpptools-tagparser-cache",
+  "C_Cpp.intelliSenseCacheSize": 2048,
+  "C_Cpp.workspaceParsingPriority": "low",
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.codeAnalysis.exclude": {
+    "${workspaceFolder}/MDK-ARM/**": true,
+    "${workspaceFolder}/.vscode/**": true
+  },
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\r\n",
+  "files.exclude": {
+    "**/*.o": true,
+    "**/*.d": true,
+    "**/*.axf": true,
+    "**/*.hex": true,
+    "**/*.map": true,
+    "**/*.lnp": true
+  },
+  "files.associations": {
+    "*.h": "c",
+    "*.ioc": "ini",
+    "*.uvprojx": "xml",
+    "*.uvoptx": "xml",
+    "*.s": "arm"
+  }
+}

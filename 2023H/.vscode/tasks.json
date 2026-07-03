@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Keil: Build 2023H",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$candidates=@('C:/Keil_v5/UV4/UV4.exe','C:/Keil_v5/UV4/UV4.exe','D:/Keil_v5/UV4/UV4.exe','D:/Keil/UV4/UV4.exe'); $uv4=$candidates | Where-Object { Test-Path $_ } | Select-Object -First 1; if (-not $uv4) { Write-Error '没有找到 UV4.exe，请安装 Keil MDK 或修改 .vscode/tasks.json 里的路径。'; exit 1 }; & $uv4 -b 'MDK-ARM/2023H.uvprojx' -j0 -o 'MDK-ARM/build.log'"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Keil: Rebuild 2023H",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$candidates=@('C:/Keil_v5/UV4/UV4.exe','C:/Keil_v5/UV4/UV4.exe','D:/Keil_v5/UV4/UV4.exe','D:/Keil/UV4/UV4.exe'); $uv4=$candidates | Where-Object { Test-Path $_ } | Select-Object -First 1; if (-not $uv4) { Write-Error '没有找到 UV4.exe，请安装 Keil MDK 或修改 .vscode/tasks.json 里的路径。'; exit 1 }; & $uv4 -r 'MDK-ARM/2023H.uvprojx' -j0 -o 'MDK-ARM/rebuild.log'"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

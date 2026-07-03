@@ -1,0 +1,16 @@
+{
+  "C_Cpp.default.compilerPath": "D:/MinGW/mingw64/bin/gcc.exe",
+  "C_Cpp.default.cStandard": "gnu11",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/.vscode/.cpptools-tagparser-cache",
+  "C_Cpp.intelliSenseCacheSize": 2048,
+  "C_Cpp.workspaceParsingPriority": "low",
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "*.h": "c",
+    "*.s": "arm",
+    "*.uvprojx": "xml",
+    "*.uvoptx": "xml"
+  }
+}

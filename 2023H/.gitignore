@@ -1,0 +1,17 @@
+# VS Code / C/C++ extension cache
+.vscode/.cpptools-cache/
+.vscode/.cpptools-tagparser-cache/
+
+# Keil generated outputs
+MDK-ARM/**/DebugConfig/
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.map
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.build_log.htm
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.lst

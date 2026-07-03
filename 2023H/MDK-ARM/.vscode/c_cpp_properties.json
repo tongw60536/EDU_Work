@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "name": "STM32H723",
+      "includePath": [
+        "${workspaceFolder}/../Core/Inc",
+        "${workspaceFolder}/../Core/SignalSeparation",
+        "${workspaceFolder}/../Core/Src",
+        "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Inc",
+        "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Src",
+        "${workspaceFolder}/../Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+        "${workspaceFolder}/../Drivers/CMSIS/Include",
+        "${workspaceFolder}/../Middlewares/ST/ARM/DSP/Inc",
+        "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+        "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+        "D:/MinGW/mingw64/x86_64-w64-mingw32/include"
+      ],
+      "defines": [
+        "USE_PWR_LDO_SUPPLY",
+        "USE_HAL_DRIVER",
+        "STM32H723xx",
+        "ARM_MATH_CM7"
+      ],
+      "compilerPath": "D:/MinGW/mingw64/bin/gcc.exe",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/../Core/Inc",
+          "${workspaceFolder}/../Core/SignalSeparation",
+          "${workspaceFolder}/../Core/Src",
+          "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Inc",
+          "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+          "${workspaceFolder}/../Drivers/STM32H7xx_HAL_Driver/Src",
+          "${workspaceFolder}/../Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+          "${workspaceFolder}/../Drivers/CMSIS/Include",
+          "${workspaceFolder}/../Middlewares/ST/ARM/DSP/Inc",
+          "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+          "D:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+          "D:/MinGW/mingw64/x86_64-w64-mingw32/include"
+        ],
+        "limitSymbolsToIncludedHeaders": false
+      }
+    }
+  ],
+  "version": 4
+}
