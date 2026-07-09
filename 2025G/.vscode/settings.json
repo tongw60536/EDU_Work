@@ -1,0 +1,47 @@
+{
+    "C_Cpp.default.configurationProvider":  null,
+    "C_Cpp.default.includePath":  [
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/.vscode",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Core/Inc",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/STM32H7xx_HAL_Driver/Inc",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/CMSIS/Include",
+                                      "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Middlewares/ST/ARM/DSP/Inc"
+                                  ],
+    "C_Cpp.default.systemIncludePath":  [
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/.vscode",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Core/Inc",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/STM32H7xx_HAL_Driver/Inc",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Drivers/CMSIS/Include",
+                                            "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/Middlewares/ST/ARM/DSP/Inc"
+                                        ],
+    "C_Cpp.default.forcedInclude":  [
+                                        "D:/Desktoptrue/EDU/XIDIANDS/Work/AI_Test/2025G/.vscode/stm32_cpptools_fix.h"
+                                    ],
+    "C_Cpp.default.defines":  [
+                                  "USE_PWR_LDO_SUPPLY",
+                                  "USE_HAL_DRIVER",
+                                  "STM32H723xx",
+                                  "__GNUC__=10",
+                                  "__GNUC_MINOR__=3",
+                                  "__GNUC_PATCHLEVEL__=1",
+                                  "__ARM_ARCH_7EM__=1",
+                                  "__ARM_FP=14",
+                                  "__VFP_FP__=1",
+                                  "__MPU_PRESENT=1U",
+                                  "__FPU_PRESENT=1U",
+                                  "__NVIC_PRIO_BITS=4U",
+                                  "__Vendor_SysTickConfig=0U",
+                                  "__ICACHE_PRESENT=1U",
+                                  "__DCACHE_PRESENT=1U"
+                              ],
+    "C_Cpp.default.compilerPath":  "",
+    "C_Cpp.default.intelliSenseMode":  "windows-gcc-arm",
+    "C_Cpp.default.cStandard":  "gnu11",
+    "C_Cpp.errorSquiggles":  "enabled",
+    "C_Cpp.intelliSenseEngine":  "default",
+    "C_Cpp.codeAnalysis.runAutomatically":  false
+}

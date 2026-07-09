@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.configurationProvider": null,
+    "C_Cpp.default.compilerPath": "",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-arm",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.codeAnalysis.runAutomatically": false
+}
